@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    android:padding="40dp"
+    android:layoutAnimation="@anim/animation_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPIITA!"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEMÁTICA"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPN"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programación de Dispositivos Móviles"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_marginTop="80sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOTÓN 1"
+        android:textSize="24sp"
+        />
+
+
+
+</LinearLayout>

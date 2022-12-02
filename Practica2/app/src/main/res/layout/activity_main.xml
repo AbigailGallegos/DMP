@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Primary"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="INSTITUTO POLITÉCNICO NACIONAL"
+        android:textColor="@color/Secondary"
+        android:textFontWeight="600"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="@color/P1"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:padding="4px"
+        android:text="Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas"
+        android:textColor="@color/Secondary"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/subtitle2"
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/subtitle1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/Terciary"
+        android:textSize="80px"
+        android:textFontWeight="900"
+        android:text="Ingeniería Telemática"
+        />
+
+    <ImageView
+        android:id="@+id/imagenTele"
+        android:layout_width="wrap_content"
+        android:layout_height="590px"
+        android:layout_below="@+id/subtitle2"
+        android:src="@drawable/telematica" />
+
+    <TextView
+        android:id="@+id/Dispos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenTele"
+        android:background="@color/Terciary"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:padding="20px"
+        android:text="Programación de Dispositivos Móviles"
+        android:textSize="40px"
+        android:textColor="@color/Secondary" />
+
+    <TextView
+        android:id="@+id/profe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dispos"
+        android:background="@color/P1"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:padding="10px"
+        android:text="Bermudez Sosa Jose Alfredo"
+        android:textColor="@color/Secondary"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/Grupo"
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/profe"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/Primary"
+        android:textColor="@color/Secondary"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="40px"
+        android:text="Grupo: 2TM19" />
+
+    <TextView
+        android:id="@+id/practica"
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/Grupo"
+        android:layout_height="wrap_content"
+        android:text="Practica 1"
+        android:background="@color/P2"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/miNombre"
+        android:padding="10px"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="50px"
+        android:layout_below="@+id/practica"
+        android:background="@color/P2"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="20px"
+        android:text="Diana Abigail Gallegos Ruiz"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:background="@color/Terciary"
+        android:paddingHorizontal="60px"
+        android:paddingTop="60px"
+        android:layout_below="@id/miNombre">
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="54dp"
+            android:src="@drawable/upiita"></ImageView>
+
+        <Space
+            android:layout_width="234dp"
+            android:layout_height="61dp" />
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="62dp"
+            android:src="@drawable/ipn"></ImageView>
+
+    </LinearLayout>
+</RelativeLayout>

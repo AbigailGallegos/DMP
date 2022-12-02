@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80px"
+            android:layout_marginLeft="80px"
+            android:text="Estándar"
+            android:textSize="96px"
+            android:fontFamily="@font/lol"
+            />
+
+        <TextView
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80px"
+            android:layout_marginLeft="80px"
+            android:text="8404.6"
+            android:textSize="96px"
+            android:fontFamily="@font/lol"
+            />
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="6"
+            android:orientation="horizontal" >
+
+            <Button android:text="MC"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+            <Button android:text="MR"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"/>
+            <Button android:text="M+"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"/>
+            <Button android:text="M-"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"/>
+            <Button android:text="MS"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"/>
+            <Button android:text="M*"
+                android:layout_height="120px"
+                android:layout_width="180px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="40px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:orientation="horizontal">
+
+            <Button android:text="%"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+            <Button android:text="CE"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+            <Button android:text="c"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete"/>
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/reciproco"/>
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/squared" />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/squaredroot" />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/dividedby" />
+
+            <Button android:text="1"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="2"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="3"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/times"/>
+
+            <Button android:text="4"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="5"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="6"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/minus"/>
+
+            <Button android:text="7"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="8"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="9"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/plus"/>
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/plusminus"/>
+
+            <Button android:text="0"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <Button android:text="."
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:fontFamily="@font/pmedium"
+                android:textSize="80px"
+                android:foregroundTint="@color/buttons"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:layout_height="200px"
+                android:layout_width="270px"
+                android:backgroundTint="@color/buttons"
+                android:scaleType="centerInside"
+                android:src="@drawable/equals"/>
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

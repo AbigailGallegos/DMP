@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="60dp">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/pmedium"
+        />
+
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:hint="Usuario"
+        android:inputType="textVisiblePassword"
+        android:fontFamily="@font/pmedium"
+
+        />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:hint="Contraseña"
+        android:fontFamily="@font/pmedium"
+        android:inputType="numberPassword"
+        />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+          >
+
+            <CheckBox
+                android:id="@+id/cbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/pmedium"
+                android:text=" NO Recordar mi contraseña"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+        
+   
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Ingresar"
+        android:textSize="20sp"
+        android:foregroundTint="#C86889"
+        android:shadowColor="#000000"
+        android:fontFamily="@font/lol"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

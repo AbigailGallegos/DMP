@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="10pt"
+        android:background="@color/Primary"
+        android:textColor="@color/Secondary"
+        android:fontFamily="@font/montserrat_bold"
+        android:textFontWeight="600"
+        android:textSize="80px"
+        android:text="INSTITUTO POLITÉCNICO NACIONAL"/>
+
+    <TextView
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/P1"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="30px"
+        android:textColor="@color/Secondary"
+        android:text="Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas"
+         />
+
+    <TextView
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/Terciary"
+        android:textSize="80px"
+        android:text="Ingeniería Telemática"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="590px"
+        android:src="@drawable/telematica" />
+
+
+    <TextView
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/Terciary"
+        android:text="Programación de Dispositivos Móviles"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="45px"
+        android:textColor="@color/Secondary" />
+
+    <TextView
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/P1"
+        android:textColor="@color/Secondary"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="40px"
+        android:text="Bermudez Sosa Jose Alfredo" />
+
+    <TextView
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/P1"
+        android:textColor="@color/Secondary"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="40px"
+        android:text="Grupo: 2TM19" />
+
+
+    <TextView
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Practica 1"
+        android:background="@color/Primary"
+        android:textColor="@color/Secondary"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="45px" />
+
+   <TextView
+        android:padding="10px"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/P2"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="40px"
+        android:text="Diana Abigail Gallegos Ruiz"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:background="@color/Terciary"
+        android:paddingHorizontal="60px"
+        android:paddingTop="60px" >
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="54dp"
+            android:src="@drawable/upiita"></ImageView>
+
+        <Space
+            android:layout_width="234dp"
+            android:layout_height="61dp" />
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="62dp"
+            android:src="@drawable/ipn"></ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
