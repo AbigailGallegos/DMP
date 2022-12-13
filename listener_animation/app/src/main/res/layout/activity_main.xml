@@ -6,20 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cardview_dark_background"
+    android:padding="30dp"
     >
 
     <TextView
-        android:layout_marginTop="40dp"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Animación con Animation Listener"
         android:textColor="@color/white"
-        android:textSize="18pt"/>
+        android:textSize="16pt"/>
+
 
     <Button
+        android:layout_marginTop="50dp"
+        android:text="Animación"
         android:id="@+id/boton1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView

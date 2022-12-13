@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements  Animation.Animat
         setContentView(R.layout.activity_main);
         txt1 = (TextView) findViewById(R.id.texto1);
         boton1= (Button) findViewById(R.id.boton1);
-        txt1.setText( "Contador = " + i+1);
+        txt1.setText( "Contador = " + i);
 
 
         //Animación de transparencia (Aparición)
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements  Animation.Animat
         traslacion.setDuration(10000);
         traslacion.setInterpolator(new BounceInterpolator());
         traslacion.setFillAfter(true);
-        txt1.startAnimation(traslacion);
+        //txt1.startAnimation(traslacion);
 
         //Animación del botón
         animboton = new ScaleAnimation(1,1,0,1);
@@ -59,7 +59,10 @@ public class MainActivity extends AppCompatActivity implements  Animation.Animat
         animboton.setFillAfter(true);
         animboton.setDuration(500);
         animboton.setRepeatMode(AnimationSet.RESTART);
-        animboton.setRepeatMode(1);
+        animboton.setRepeatCount(1);
+
+        transparencia.setAnimationListener(this);
+        escalamiento.setAnimationListener(this);
 
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
