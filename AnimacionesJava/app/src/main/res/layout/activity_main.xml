@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    android:id="@+id/ly1"
+    android:background="@color/cardview_dark_background">
+
+
+    <TextView
+        android:id="@+id/texto1"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animaciones"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPIITA"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instituto Politecinco Nacional"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Programación de dispositivos Móviles"
+        android:textSize="24dp"
+        />
+    <Button
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Boton 1"/>
+
+
+</LinearLayout>
